@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './secondary-button.html',
   styleUrl: './secondary-button.css',
+  standalone: true,
 })
 export class SecondaryButton {}
