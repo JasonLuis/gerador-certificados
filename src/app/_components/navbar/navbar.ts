@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-navbar', // o seletor do componente
   imports: [], // outros componentes ou módulos que este componente utiliza
   templateUrl: './navbar.html', // o arquivo HTML do componente
-  styleUrl: './navbar.css', // o arquivo CSS do componente
+  styleUrl: './navbar.css', // o arquivo CSS do componente,
+  standalone: true, // indica que este é um componente independente
 })
 
 // a classe do componente, onde você pode adicionar lógica e propriedades
