@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './primary-button.html',
   styleUrl: './primary-button.css',
+  standalone: true,
 })
 export class PrimaryButton {}
