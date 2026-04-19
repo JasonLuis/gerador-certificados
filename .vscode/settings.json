@@ -1,0 +1,44 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.pnpm-store": true,
+    "**/.output": true,
+    "**/.nuxt": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.pnpm-store": true,
+    "**/.nuxt": true
+  },
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "[csss]": {
+    "editor.formatOnSave": true
+  },
+  "[js]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.snippetSuggestions": "bottom",
+  // "editor.hover.enabled": false,
+  "editor.hover.delay": 1500,
+  // "editor.hover.hidingDelay": 1,
+  "editor.quickSuggestionsDelay": 500
+}
